@@ -1,0 +1,4 @@
+
+input[type=text]:not(.date) {
+	width: 10em;
+}

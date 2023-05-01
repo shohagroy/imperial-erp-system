@@ -1,0 +1,50 @@
+
+@media all and (max-width: 680px) {
+	form > center > table.tablestyle2, form > center > table.tablestyle2 > tbody,
+	form > center > table.tablestyle2 > tbody > tr, form > center > table.tablestyle2 > tbody > tr > td,
+	form > center > table.tablestyle2 > tbody > tr > td > center,
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle, 
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody,
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr,
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td {
+		display: inline-block;
+		width: 100%;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td {
+        width: 50%;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td.tableheader2 {
+		text-align: left;
+		width: 40%;
+		margin-left: 5%;
+		border: 1px solid #FFF;
+	}
+	div#Items > center > table.tablestyle input {
+		width: 5em;
+	}
+}
+@media all and (max-width: 480px) {
+	
+	div#Items, div#Items center, div#Items center table.tablestyle2, div#Items center table.tablestyle2 tbody, 
+	div#Items center table.tablestyle2 tbody tr, div#Items center table.tablestyle2 tbody tr td {
+		display: inline-block;
+		width: 100%;
+	}
+	div#Items center table.tablestyle2 tbody tr td > * {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td,
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td.tableheader2 {
+        width: 100%;
+        text-align: center;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td.tableheader2 {
+		text-align: left;
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td > center > table.tablestyle > tbody > tr > td > div.date_box {
+		margin: 0 auto;
+	}
+}

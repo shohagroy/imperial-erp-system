@@ -1,0 +1,15 @@
+@import url(local_pref.css);
+
+@media all and (max-width: 480px) {
+
+	form table.tablestyle_inner a {
+		margin-left: 0 !important;
+	}
+	form table.tablestyle_inner tr td:nth-child(2) {
+		text-align: center;
+		padding-right: 2em;
+	}
+	td.tableheader {
+		background-color: #EEE;
+	}
+}

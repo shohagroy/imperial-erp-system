@@ -1,0 +1,11 @@
+@import url(local_pref.css);
+
+@media all and (max-width: 680px) {
+	div.contentBox table.tablestyle_inner tbody > tr:nth-child(2) > td:nth-child(2) {
+	    text-align: center;
+    }
+	img#emp_img {
+		width: 80%;
+		height: auto;
+	}
+}

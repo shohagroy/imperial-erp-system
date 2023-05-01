@@ -1,0 +1,60 @@
+@import url(local_pref.css);
+
+@media all and (max-width: 480px) {
+	form > center > table.tablestyle_noborder > tbody > tr > td {
+		display: inline-block;
+		width: 50%;
+		padding-left: calc((50% - 135px)/2);
+	}
+	.contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > img {
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+	}
+	.contentBox table tr td:nth-child(2) {
+		text-align: center;
+	}
+	div#price_table table.tablestyle {
+		width: auto;
+	}
+	div#price_details table.tablestyle2 tr, div#price_details table.tablestyle2 tr td,
+	div#cost_table table.tablestyle2 tr, div#cost_table table.tablestyle2 tr td {
+		display: block;
+		width: 100%;
+		border: 0;
+		margin: 0;
+	}
+	div#price_details table.tablestyle2 tr,
+	div#cost_table table.tablestyle2 tr {
+		margin-bottom: 1em;
+	}
+	div#price_details table.tablestyle2 tr td.label,
+	div#cost_table table.tablestyle2 tr td.tableheader2 {
+		line-height: 1em;
+		padding-left: 1em;
+	}
+	div#price_details table.tablestyle2 tr td > *,
+	div#cost_table table.tablestyle2 tr td > * {
+        width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 680px) {
+
+    .contentBox > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > img {
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		left: -30%;
+	}
+	div#price_details .list_box, div#cost_table .list_box {
+		width: 135px;
+	}
+}
+@media all and (max-width: 680px) {
+
+	div#reorders table.tablestyle{
+		width: auto;
+	}
+}

@@ -1,0 +1,43 @@
+
+@media all and (max-width: 680px) {
+
+	form > center > table.tablestyle2, form > center > table.tablestyle2 > tbody, form > center > table.tablestyle2 > tbody > tr {
+		display: block;
+		width: 100%;
+	}
+    form > center > table.tablestyle2 > tbody > tr > td {
+    	display: inline-block;
+    	width: 50%;
+    }
+	form > center > table.tablestyle2 > tbody > tr > td.tableheader2 {
+		width: 40%;
+		margin-left: 5%;
+		border: 1px solid #FFF;
+	}
+	div#Items input {
+		width: 5em;
+	}
+}
+@media all and (max-width: 480px) {
+	
+	div#options, div#options center, div#options center table.tablestyle2, div#options center table.tablestyle2 tbody, 
+	div#options center table.tablestyle2 tbody tr, div#options center table.tablestyle2 tbody tr td {
+		display: inline-block;
+		width: 100%;
+	}
+	div#options center table.tablestyle2 tbody tr td textarea {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td, form > center > table.tablestyle2 > tbody > tr > td.tableheader2 {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+		text-align: center;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td.tableheader2 {
+		text-align: left;
+	}
+	form > center > table.tablestyle2 > tbody > tr > td > div.date_box {
+		margin: 0 auto;
+	}
+}

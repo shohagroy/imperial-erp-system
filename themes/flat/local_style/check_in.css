@@ -1,0 +1,12 @@
+@media all and (max-width: 680px) {
+	div#Items input[type=text]:not(.date), div#Items div.list_box {
+		width: 5em;
+	}
+	div#Items > center {
+		padding-bottom: 7px;
+	}
+}
+
+select[multiple] {
+	width: 135px;
+}

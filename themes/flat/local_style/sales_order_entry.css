@@ -1,0 +1,77 @@
+@import url(local.css);
+/*ENTRY ITEMS*/
+div#items_table, div#items_table table {
+	width: auto;
+}
+tr.evenrow td, tr.oddrow td, tr.stockmankobg td {
+	border: 1px solid #DDD !important;
+}
+@media all and (max-width: 680px) {
+	#_page_body > form > center:not(:first-child) > table.tablestyle,
+	#_page_body > form > center:not(:first-child) > table.tablestyle > tbody,
+	#_page_body > form > center:not(:first-child) > table.tablestyle > tbody > tr,
+	#_page_body > form > center:not(:first-child) > table.tablestyle > tbody > tr > td,
+	div#items_table, div#delivery,
+	div#delivery > center > table.tablestyle2,
+	div#delivery > center > table.tablestyle2 > tbody,
+	div#delivery > center > table.tablestyle2 > tbody > tr, 
+	div#delivery > center > table.tablestyle2 > tbody > tr > td,
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner,
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody,
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		display: block;
+		width: 100%;
+		border: 0 !important;
+	}
+	div#items_table > center {
+		padding-bottom: 1em;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr,
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr {
+		margin-bottom: 1em;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > span,
+	div#delivery table.tablestyle_inner td {
+		display: inline-block;
+		width: calc(100% - 4em);
+		margin-left: 2em;
+		border: 0;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr:nth-child(2) > td {
+		display: inline-block;
+		width: auto;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr:nth-child(3) > td > textarea {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr > td.label,
+	div#delivery table.tablestyle_inner td.label {
+		line-height: 1em;
+		text-align: left;
+		background-color: #FFF;
+	}
+	div#delivery table.tablestyle_inner td.label {
+        margin-left: 1em;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > table.tablestyle_inner > tbody > tr > td > *:not(.date_box) {
+		width: 100%;
+	}
+	div#delivery .list_container > .list_box {
+		width: 100%;
+	}
+	div#delivery > center > table.tablestyle2 > tbody > tr > td > div.list_container {
+		width: calc(100% - 4em);
+		margin-left: 2em;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 680px) {
+	div#delivery > center > table.tablestyle2 > tbody > tr > td,
+    div#delivery table.tablestyle_inner td {
+    	width: 80%;
+		margin-left: 10%;
+    }
+    div#delivery table.tablestyle_inner td.label {
+    	margin-left: 5%;
+    }
+}

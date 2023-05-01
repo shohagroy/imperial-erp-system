@@ -1,0 +1,15 @@
+#_page_body {
+	background-color:inherit;
+	width:calc(100% - 2em);
+	margin:0 1em;
+}
+html[dir="rtl"] #_page_body {
+	width:calc(100% - 2em);
+	margin-right: 1em;
+}
+@media only screen and (max-width: 480px) {
+	#_page_body {
+		width: 100%;
+		margin: 0;
+	}
+}

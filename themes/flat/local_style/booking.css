@@ -1,0 +1,5 @@
+@import url(local.css);
+
+select[multiple] {
+	width: 135px;
+}

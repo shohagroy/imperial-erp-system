@@ -1,0 +1,21 @@
+@import url(local.css);
+
+table.tablestyle tr td {
+	border: 1px solid #DDD !important;
+}
+div.booking_task_box {
+	background-color: #ccffcc;
+	text-align:center;
+	margin:5px;
+	padding:2px;
+	border: 1px solid #33cc00;
+	white-space: nowrap;
+	cursor: pointer; 
+}
+
+div.booking_task_box:active:after {
+    content:attr(title);
+}
+div.task_box_show:after {
+    content:attr(title);
+}

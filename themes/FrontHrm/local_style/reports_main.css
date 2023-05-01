@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@media all and (max-width: 680px) {
+	#_page_body > table, #_page_body > table > tbody {
+		display: block;
+		width: 100%;
+		border-left: 0 !important;
+		border-right: 0 !important;
+	}
+}
+#_page_body > table > tbody {
+	border: 0 !important;
+}
+#_page_body > table > tbody > tr > td {
+	border: 1px solid #CCC !important;
+}
+#_page_body a {
+	display: inline-block;
+	width: 100%;
+	line-height: 30px;
+	font-size: 1.1em;
+	color: #555;
+}
+#_page_body a:hover {
+	background-color: #EEE;
+	text-decoration: none;
+}
+#_page_body a[style*="font-weight: bold;"], #_page_body a[style*="font-weight:bold"] {
+	background-color: #EEE;
+}
